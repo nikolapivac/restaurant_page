@@ -11,13 +11,13 @@ const loadHeader = () => {
     menu.classList.add("menu");
         // buttons
     const button1 = document.createElement("button");
-    button1.classList.add("menu_item1");
+    button1.classList.add("home_button");
     button1.textContent = "home";
     const button2 = document.createElement("button");
-    button1.classList.add("menu_item2");
+    button2.classList.add("menu_button");
     button2.textContent = "menu"
     const button3 = document.createElement("button");
-    button1.classList.add("menu_item3");
+    button3.classList.add("contact_button");
     button3.textContent = "contact"
     menu.appendChild(button1);
     menu.appendChild(button2);
