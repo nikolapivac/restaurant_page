@@ -113,14 +113,16 @@ body{
     grid-row: 2 / 3;
 }
 
-/* --- MENU container --- */
+/* --- MENU & CONTACT containers --- */
 
-.menu_container {
+.menu_container,
+.contact_container {
     display: flex;
     flex-direction: column;
 }
 
-.menu_title {
+.menu_title,
+.contact_title {
     font-size: 64px;
     color: var(--primary);
     align-self: center;
@@ -133,6 +135,23 @@ body{
     font-size: 32px;
     color: var(--primary);
     letter-spacing: 3px;
+}
+
+.card {
+    font-family: var(--font);
+    background-color: var(--primary);
+    color: lightgray;
+    margin: 16px;
+    border: 2px solid var(--secondary);
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: var(--shadow);
+    letter-spacing: 1px;
+}
+
+.card > h4:hover{
+    cursor: pointer;
+    color: var(--secondary);
 }
 
 .item {
@@ -161,6 +180,7 @@ body{
 .item > h3 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    font-size: 20px;
 }
 
 .item > p {
@@ -168,4 +188,6 @@ body{
     grid-row: 2 / 3;
     align-self: flex-end;
     margin-bottom: 16px;
+    color: whitesmoke;
 }
+
