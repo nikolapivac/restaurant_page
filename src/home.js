@@ -6,7 +6,7 @@ const loadHome = () => {
     container.classList.add("container");
         // image
     const image = document.createElement("img");
-    image.setAttribute("src", "../images/banner.jpg");
+    image.setAttribute("src", "../dist/images/banner.jpg");
     container.appendChild(image);
         // subcontainer
     const subcontainer = document.createElement("div");

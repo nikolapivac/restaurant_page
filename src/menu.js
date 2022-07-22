@@ -38,11 +38,11 @@ const loadMenu = () => {
     bevTitle.textContent = "beverages";
     bevContainer.appendChild(bevTitle);
             // beverages list
-    const bev1 = createItem("../images/lemonmezcal.jpg", "Lemon Mezcal Margarita", "$7");
+    const bev1 = createItem("../dist/images/lemonmezcal.jpg", "Lemon Mezcal Margarita", "$7");
     bevContainer.appendChild(bev1);
-    const bev2 = createItem("../images/caipirinha.jpg", "Caipirinha", "$8");
+    const bev2 = createItem("../dist/images/caipirinha.jpg", "Caipirinha", "$8");
     bevContainer.appendChild(bev2);
-    const bev3 = createItem("../images/mojito.jpg", "Mojito", "$8");
+    const bev3 = createItem("../dist/images/mojito.jpg", "Mojito", "$8");
     bevContainer.appendChild(bev3);
 
         // side dishes container
@@ -53,9 +53,9 @@ const loadMenu = () => {
     sidesTitle.textContent = "side dishes";
     sideContainer.appendChild(sidesTitle);
             // side dishes list
-    const side1 = createItem("../images/greek.jpg", "Greek Salad", "$10");
+    const side1 = createItem("../dist/images/greek.jpg", "Greek Salad", "$10");
     sideContainer.appendChild(side1);
-    const side2 = createItem("../images/ceasar.webp", "Ceasar Salad", "$11");
+    const side2 = createItem("../dist/images/ceasar.webp", "Ceasar Salad", "$11");
     sideContainer.appendChild(side2);
 
         // main dishes container
@@ -66,13 +66,13 @@ const loadMenu = () => {
     mainTitle.textContent = "main dishes";
     mainContainer.appendChild(mainTitle);
         // side dishes list
-    const main1 = createItem("../images/coconut.jpg", "Coconut Mango Beef Curry", "$23");
+    const main1 = createItem("../dist/images/coconut.jpg", "Coconut Mango Beef Curry", "$23");
     mainContainer.appendChild(main1);
-    const main2 = createItem("../images/kalua.jpg", "Kalua Pork", "$22");
+    const main2 = createItem("../dist/images/kalua.jpg", "Kalua Pork", "$22");
     mainContainer.appendChild(main2);
-    const main3 = createItem("../images/carribean.jpg", "Carribean Shrimp Bowl", "$19");
+    const main3 = createItem("../dist/images/carribean.jpg", "Carribean Shrimp Bowl", "$19");
     mainContainer.appendChild(main3);
-    const main4 = createItem("../images/jicama.jpg", "Jicama Pineapple Guacamole", "$29");
+    const main4 = createItem("../dist/images/jicama.jpg", "Jicama Pineapple Guacamole", "$29");
     mainContainer.appendChild(main4);
 
 
