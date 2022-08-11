@@ -31,11 +31,14 @@ body{
     display: flex;
     gap: 150px;
     margin: 25px;
+    background-color: var(--primary);
+    padding: 16px;
+    border-radius: 16px;
 }
 
 .menu > button{
-    background-color: var(--background);
-    color: var(--primary);
+    background-color: var(--primary);
+    color: var(--background);
     border: none;
     font-size: 20px;
     letter-spacing: 3px;
@@ -58,14 +61,15 @@ body{
 
 .title {
     color: var(--primary);
-    font-size: 64px;
+    font-size: 84px;
     letter-spacing: 5px;
     font-family: 'Island Moments', cursive;
 }
 
 .container > img {
     width: 100%;
-    height: auto;
+    height: 400px;
+    object-fit: cover;
     box-shadow: var(--shadow);
 }
 
@@ -191,3 +195,66 @@ body{
     color: whitesmoke;
 }
 
+@media (max-width: 500px) {
+    .menu{
+        display: flex;
+        gap: 40px;
+        margin: 10px;
+        padding: 12px;
+        border-radius: 12px;
+    }
+
+    .menu > button{
+        font-size: 16px;
+    }
+
+    .sub_container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 30px 5%;
+    }
+
+    .container > img {
+        height: 200px;
+    }
+
+    .menu_title,
+    .contact_title {
+        font-size: 40px;
+        margin: 16px;
+        border-bottom: 0.5px solid var(--primary);
+    }
+    .bev_container > h2,
+    .side_container > h2,
+    .main_container > h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 48px;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        margin: 8px;
+        border: 2px solid var(--secondary);
+        border-radius: 20px;
+        padding-right: 0;
+    }
+
+    .item > img {
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .item > h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .item > p {
+        align-self: center;
+    }
+}
